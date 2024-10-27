@@ -13,6 +13,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    
+    /* Enable source maps */
+    "sourceMap": true,  // Agrega esta línea
 
     /* Linting */
     "strict": true,
