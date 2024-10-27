@@ -5,7 +5,7 @@ import Confetti from "react-confetti";
 export default function Page() {
   const [currentSection, setCurrentSection] = useState(0);
   const [noCount, setNoCount] = useState(0);
-  const [yesPressed, setYesPressed] = useState(false);
+  const [_, setYesPressed] = useState(false);
   const [confettiVisible, setConfettiVisible] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
@@ -99,7 +99,7 @@ export default function Page() {
         src="https://i.pinimg.com/originals/87/f4/21/87f421ef84eef2c27b0ff23047270fbe.gif"
         alt="SnoopySorry"
       />
-        <h2 className="my-4 text-2xl text-center">
+      <h2 className="my-4 text-2xl text-center">
         Entonces...
       </h2>
       <h1 className="my-4 text-5xl text-center">
