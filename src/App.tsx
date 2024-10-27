@@ -65,7 +65,7 @@ export default function Page() {
         </h2>
         <div className="flex items-center justify-center">
           <a
-            href="https://drive.google.com/drive/folders/1MY_pBlyLG5go9HrAQ7fex5LNI9dqBk3R?usp=sharing"
+            href="https://drive.google.com/file/d/1WTzhjIqhxDPgHaZjWp3PkUlLWxCrvguK/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="mr-4 cursor-pointer transition-all bg-pink-500 text-white px-8 py-3 rounded-lg border-pink-600 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
@@ -172,7 +172,7 @@ export default function Page() {
   );
 
   return (
-    <div className="absolute inset-0 bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]">
+    <div className="absolute inset-0 bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] h-screen w-screen">
       {confettiVisible && (
         <div className={`fixed inset-0 z-50 transition-opacity duration-1000 ${fadeOut ? 'opacity-0' : 'opacity-100'}`}>
           <Confetti />
