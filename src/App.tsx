@@ -153,7 +153,7 @@ export default function Page() {
       </div>
       <div className="flex items-center justify-center">
         <a
-          href="https://drive.google.com/drive/folders/1MY_pBlyLG5go9HrAQ7fex5LNI9dqBk3R?usp=sharing"
+          href="https://youtu.be/SYkEFXO2TNQ"
           target="_blank"
           rel="noopener noreferrer"
           className="mr-4 cursor-pointer transition-all bg-purple-500 text-white px-8 py-3 rounded-lg border-purple-600 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
