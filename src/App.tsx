@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Confetti from "react-confetti";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Page() {
   const [currentSection, setCurrentSection] = useState(0);
@@ -172,6 +173,7 @@ export default function Page() {
   );
 
   return (
+    
     <div className="absolute inset-0 bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)] h-screen w-screen">
       {confettiVisible && (
         <div className={`fixed inset-0 z-50 transition-opacity duration-1000 ${fadeOut ? 'opacity-0' : 'opacity-100'}`}>
@@ -182,6 +184,7 @@ export default function Page() {
       {currentSection === 0 && <WelcomeSection />}
       {currentSection === 1 && <ForgivenessSection />}
       {currentSection === 2 && <FinalSection />}
+      <Analytics/>
     </div>
   );
 }
